@@ -1,0 +1,12 @@
+﻿
+
+<div class="contenedor form-login">
+    <p class="titulo">Bienvenido</p>
+    <form class="form" method="post" action="@Url.Action("InicioDeSesion", "ControladorIniciarSesion")">
+        <input type="email" class="input" placeholder="Email">
+        <input type="password" class="input" placeholder="Contraseña">
+        <button class="form-btn" formaction="@Url.Action("Login", "Login")">Acceder</button>
+        <button class="form-btn" formaction="@Url.Action("Registro", "Login")">Registrarse</button>
+        <button class="form-btn negro" formaction="@Url.Action("OlvidaContraseña", "Login")">Recuperar contraseña</button>
+    </form>    
+</div>
