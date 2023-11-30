@@ -20,9 +20,11 @@ body {
 }
 .burbuja {
     background-color: #fff;
-    color: #192255;
+    color: #285845;
     border-radius: 10px;
-    
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align:center;
 }
 .form-login { /*form-login*/
     width: 350px;
